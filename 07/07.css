@@ -1,0 +1,63 @@
+body
+{
+    background: #1E1E1E;
+}
+.box1 
+{
+    position: relative;
+    top: 30px;
+    left: 500px;
+    width: 500px;
+    height: 40px;
+    background-color: aliceblue;
+    border-style: none;
+    border-radius: 25px;
+}
+.txt 
+{
+    position: absolute;
+    top: 7.5px;
+    left: 12.5px;
+    width: 465px;
+    height: 25px;
+    outline: none;
+    background-color: transparent;
+    border-style: none;
+    font-family: Consolas;
+}
+.box2 
+{
+    position: relative;
+    top: 45px;
+    left: 500px;
+    width: 145px;
+    height: 30px;
+    background-color: rgb(0, 153, 255);
+    border-style: none;
+    border-radius: 25px;
+}
+.create, .delete
+{
+    position: absolute;
+    top: 0.5px;
+    left: 30.5px;
+    width: max-content;
+    height: max-content;
+    outline: none;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: Consolas; 
+}
+.box3
+{
+    position: relative;
+    top: 15px;
+    left: 850px;
+    width: 145px;
+    height: 30px;
+    background-color: rgb(248 21 21);
+    border-style: none;
+    border-radius: 25px;
+}
