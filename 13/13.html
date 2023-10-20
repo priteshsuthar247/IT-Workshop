@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="13.css">
+</head>
+<body>
+    <h1>Student Registraition Portal</h1>
+    <div class="navbar">
+        <ul><a class="btn1" href="#">Create</a></ul>
+        <ul><a class="btn2" href="#">Veiw Records</a></ul>
+    </div>
+    <div class="creation" id="creation">
+        <form id="registrationForm" action="insert.php" method="post" target="_blank">
+            <h2>IT2022</h2>
+            <p>Sr_No</p>
+            <div class="box">
+                <input type="number" name="feild1" class="data" placeholder="Sr_No">
+            </div>
+            <p>Stu_ID</p>
+            <div class="box">
+                <input type="number" name="feild2" class="data" placeholder="Stu_ID">
+            </div>
+            <p>Stu_Name</p>
+            <div class="box">
+                <input type="text" name="feild3" class="data" placeholder="Stu_Name">
+            </div>
+            <div class="box1">
+                <input class="create" type="submit" name="create" value="Create">
+        </div>
+        </form>
+    </div>
+    <div class="selection">
+    </div>
+    <div class="connection" style="display: none;"></div>
+</body>
+<script src="13.js"></script>
+</html>
